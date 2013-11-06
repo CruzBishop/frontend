@@ -21,14 +21,13 @@ Seriously, we really do.  It doesn't matter whether you're fixing a typo or over
 ## Quickstart Developer Guide
 Fork our repository on GitHub, clone it locally, install components and modules, and start the server.
 
-```bash
-git clone git@github.com:YOUR_GITHUB_LOGIN/frontend.git bountysource
-cd bountysource
-sudo npm install -g bower grunt-cli    # recommended
-npm install    # installs required node.js modules into node_modules/*
-bower install  # installs web components into app/components/*
-grunt server   # runs grunt server on http://localhost:9000/
-```
+    git clone git@github.com:YOUR_GITHUB_LOGIN/frontend.git bountysource
+    cd bountysource
+    sudo npm install -g bower grunt-cli    # recommended
+    npm install    # installs required node.js modules into node_modules/*
+    bower install  # installs web components into app/components/*
+    grunt server   # runs grunt server on http://localhost:9000/
+
 
 ## Staging vs. Production
 We have two APIs available:
